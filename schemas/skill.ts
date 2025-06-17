@@ -1,10 +1,10 @@
-// studio/schemas/skill.ts
 export default {
   name: 'skill',
+  title: 'Skills',
   type: 'document',
-  title: 'Skill',
   fields: [
-    { name: 'name', type: 'string', title: 'Skill Name' },
-    { name: 'level', type: 'string', title: 'Proficiency Level' }
+    { name: 'name', title: 'Skill Name', type: 'string' },
+    { name: 'level', title: 'Proficiency Level', type: 'string' },
+    { name: 'icon', title: 'Icon URL', type: 'url' }
   ]
 }
