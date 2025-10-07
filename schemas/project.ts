@@ -19,6 +19,7 @@ export default {
           { title: 'Telemed', value: 'Telemed' },
           { title: 'eCommerce', value: 'eCommerce' },
           { title: 'CyberSec', value: 'CyberSec' },
+          { title: 'Archives', value: 'Archives' },
         ]
       }
     }
